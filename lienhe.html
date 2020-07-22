@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background: url(101535114-website-and-internet-contact-us-page-concept-with-hanging-icons-in-front-of-a-silver-background.jpg) no-repeat fixed center;
+            height: 800px;
+            overflow: hidden;
+
+        }
+
+        .contact {
+            background: white;
+            padding: 57px 70px 57px 70px;
+            margin-top: 100px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        .contact h2 {
+            text-align: center;
+            font-weight: bolder;
+
+        }
+
+        img {
+            position: relative;
+            top: 0;
+            left: 0;
+            height: 100px;
+        }
+
+        .exit {
+            position: relative;
+            top: -204px;
+            left: 438px;
+        }
+
+        .exit a {
+            font-size: 20px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        @media screen and (max-width:768px) {
+            .exit {
+                position: relative;
+                top: -204px;
+                left: 340px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="background">
+
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="contact">
+                            <img src="data:image/jpeg;base64,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"
+                                alt="">
+                            <img src="https://png.pngtree.com/png-clipart/20190611/original/pngtree-handsome-guy-contact-us-interface-png-image_2972191.jpg"
+                                alt="">
+                            <img src="https://png.pngtree.com/png-clipart/20190903/original/pngtree-vector-service-label-illustration-elements-png-image_4440289.jpg"
+                                alt="" class="hidden-xs" style="    width: 31%;">
+                            <h2>Contact us</h2>
+                            <form action="" method="POST" role="form">
+                                <div class="exit"><a href="index.html">X</a></div>
+                                <div class="form-group">
+
+                                    <input type="text" class="form-control" id="" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+
+                                    <input type="text" class="form-control" id="" placeholder="Email">
+                                </div>
+
+                                <textarea name="" id="input" class="form-control" rows="3" required="required"
+                                    placeholder="Message"></textarea>
+
+
+
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https:  //code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

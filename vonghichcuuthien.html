@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="vnct.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <nav class="navbar" role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header ">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar" style="color: #fff;font-size:20px;"><i
+                                            class="fas fa-align-justify"></i></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="index.html"><img
+                                        src="http://st.truyenchon.com/data/logos/logo-nettruyen.png" alt=""></a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                                <form class="navbar-form navbar-left hidden-xs" role="search">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Tìm truyện...">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Search</button>
+                                </form>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="comment hidden-xs"><a href="#"><i class="fas fa-comment"></i></a></li>
+                                    <li class="dropdown ">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img
+                                                src="https://img2.thuthuatphanmem.vn/uploads/2018/11/30/anh-dai-dien-chat_104205050.jpg"
+                                                alt=""> <b class="caret"></b></a>
+                                        <ul class="dropdown-menu drop" style="background:#000; ">
+                                            <li><a href="#" style="color: #fff;">Tài khoản</a></li>
+                                            <li><a href="#" style="color: #fff;">Truyện theo dõi</a></li>
+                                            <li><a href="#" style="color: #fff;">Cập nhật</a></li>
+                                            <li><a href="#" style="color: #fff;">Đăng xuất</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="list hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="margin-top:-20px;">
+
+                        <nav class="navbar " role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                    data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                                <ul class="nav navbar-nav main-menu">
+                                    <li class="active"><a href="#" style="padding-top: 8px;padding-bottom: 9px;"><i
+                                                class="fas fa-home" style="font-size: 16px;"></i></a></li>
+                                    <li><a href="#" style="padding-top: 8px;padding-bottom: 9px;">HOT</a></li>
+                                    <li><a href="#" style="padding-top: 8px;padding-bottom: 9px;">THEO DÕI</a></li>
+                                    <li><a href="#" style="padding-top: 8px;padding-bottom: 9px;">lỊCH SỬ</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                            style="padding-top: 8px;padding-bottom: 9px;">THỂ LOẠI <i
+                                                class="fas fa-angle-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu megamenu">
+
+                                            <li>
+                                                <div class="clearfix">
+                                                    <div class="col-md-3">
+                                                        <ul class="nav">
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Tất cả</strong></a>
+                                                            </li>
+                                                            <li><a href="#">Action</a></li>
+                                                            <li><a href="#">Adult</a></li>
+                                                            <li><a href="#">Adventure</a></li>
+                                                            <li><a href="#">Anime</a></li>
+                                                            <li><a href="#">Chuyển sinh</a></li>
+                                                            <li><a href="#">Comedy</a></li>
+                                                            <li><a href="#">Comic</a></li>
+                                                            <li><a href="#">Cooking</a></li>
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Cổ đại</strong></a>
+                                                            </li>
+                                                            <li><a href="#">Doujinshi</a></li>
+                                                            <li><a href="#">Drama</a></li>
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Đam mỹ</strong></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <ul class="nav">
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Ecchi</strong></a>
+
+                                                            </li>
+                                                            <li><a href="#">Fantasy</a></li>
+                                                            <li><a href="#">Gender Bender</a></li>
+                                                            <li><a href="#">Harem</a></li>
+                                                            <li><a href="#">Historical</a></li>
+                                                            <li><a href="#">Horror</a></li>
+                                                            <li><a href="#">Josei</a></li>
+                                                            <li><a href="#">Live action</a></li>
+                                                            <li><a href="#">Manga</a></li>
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Manhua</strong></a>
+                                                            </li>
+                                                            <li><a href="#">Manhwa</a></li>
+                                                            <li><a href="#">Martial Arts</a></li>
+                                                            <li><a href="#">Mature</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <ul class="nav">
+                                                            <li><a href="#">Mecha</a>
+                                                            </li>
+                                                            <li><a href="#">Mystery</a></li>
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Ngôn
+                                                                        tình</strong></a></li>
+                                                            <li><a href="#">One shot</a></li>
+                                                            <li><a href="#">Psychological</a></li>
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Romance</strong></a>
+                                                            </li>
+                                                            <li><a href="#">School Life</a></li>
+                                                            <li><a href="#">Sci-fi</a></li>
+                                                            <li><a href="#">Seinen</a></li>
+                                                            <li><a href="#">Shoujo</a></li>
+
+                                                            <li><a href="#">Shoujo Ai</a></li>
+                                                            <li><a href="#">Shounen</a></li>
+                                                            <li><a href="#">Shounen Ai</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <ul class="nav">
+
+                                                            <li><a href="#">Slice of Life</a></li>
+                                                            <li><a href="#">Smut</a></li>
+                                                            <li><a href="#">Soft Yaoi</a></li>
+                                                            <li><a href="#">Soft Yuri</a></li>
+                                                            <li><a href="#">Sports</a></li>
+                                                            <li><a href="#">Supernatural</a></li>
+                                                            <li><a href="#">Thiếu Nhi</a></li>
+                                                            <li><a href="#">Tragedy</a></li>
+                                                            <li><a href="#">Trinh Thám</a></li>
+                                                            <li><a href="#">Truyện scan</a></li>
+
+                                                            <li><a href="#">Truyện Màu</a></li>
+                                                            <li><a href="#">Webtoon</a></li>
+                                                            <li class="active1"><a href="#"
+                                                                    style="color:red;"><strong>Xuyên
+                                                                        Không</strong></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </li>
+
+
+
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                                            style="padding-top: 8px;padding-bottom: 9px;">XẾP HẠNG <i
+                                                class="fas fa-angle-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu megamenu2">
+
+                                            <li>
+                                                <div class="clearfix">
+                                                    <div class="col-md-5">
+                                                        <ul class="nav ">
+                                                            <li><a href="#">Top all</a></li>
+                                                            <li><a href="#">Top tháng</a></li>
+                                                            <li><a href="#">Top tuần</a></li>
+                                                            <li><a href="#">Top ngày</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <ul class="nav ">
+                                                            <li><a href="#">Truyện full</a></li>
+                                                            <li><a href="#">Yêu thích</a></li>
+                                                            <li><a href="#">Mới cập nhật</a></li>
+                                                            <li><a href="#">Truyện mới</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </li>
+
+
+
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" style="padding-top: 8px;padding-bottom: 9px;">TÌM TRUYỆN</a></li>
+                                    <li><a href="#" style="padding-top: 8px;padding-bottom: 9px;">CON GÁI</a></li>
+                                    <li><a href="#" style="padding-top: 8px;padding-bottom: 9px;">CON TRÁI</a></li>
+                                    <li><a href="#" style="padding-top: 8px;padding-bottom: 9px;">GROUP</a></li>
+                                </ul>
+
+                            </div><!-- /.navbar-collapse -->
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="main">
+            <div class="warn hidden-xs">
+                <div class="question"><i class="fas fa-exclamation-circle"></i> </div>
+                <div class="paragraph">
+                    <p>Nếu web chậm, lỗi hoặc NHIỀU QUẢNG CÁO có thể xem tại</p>
+                </div>
+                <div class="truyen">
+                    <a href="#">Nhattruyen.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="story">
+            <div class="container" style="background:#f9f9f9;height: 100%;">
+                <div class="row">
+                    <div class="story-category">
+                        <div class="col-md-8">
+                            <div class="list-story">
+                                <a href="#">Trang chủ <i class="fas fa-angle-double-right"></i></a>
+                                <a href="#">Thể loại <i class="fas fa-angle-double-right"></i></a>
+                                <a href="#">Võ Nghịch Cửu Thiên</a>
+                            </div>
+                            <div class="name-story">
+                                <h3>VÕ NGHỊCH CỬU THIÊN</h3>
+                            </div>
+                            <div class="information">
+                                <div class="name-story">
+                                    <img src="http://st.nettruyen.com/data/comics/20/vo-nghich-cuu-thien.jpg"
+                                        class="img-responsive" alt="">
+                                </div>
+                                <div class="information-story">
+                                    <div class="author">
+                                        <div>
+                                            <p><i class="fas fa-user-tie"></i> Tác giả</p>
+                                        </div>
+                                        <div>
+                                            <a href="#">Đang cập nhật</a>
+                                        </div>
+                                    </div>
+                                    <div class="status">
+                                        <div>
+                                            <p><i class="fas fa-wifi"></i> Tình trạng</p>
+                                        </div>
+                                        <div>
+                                            <p>Đang tiến hành</p>
+                                        </div>
+                                    </div>
+                                    <div class="category">
+                                        <div class="category-new">
+                                            <p></p><i class="fas fa-list-ul"></i> Thể loại</p>
+                                        </div>
+                                        <div class="category-story">
+                                            <a href="#">Action </a><span>-</span>
+                                            <a href="#">Adventure </a><span>-</span>
+                                            <a href="#">Manhua </a><span>-</span> <br>
+                                            <a href="#">Mystery </a><span>-</span>
+                                            <a href="#">Xuyên Không</a><span>-</span>
+                                            <a href="#">Truyện màu</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="view">
+                                        <div>
+                                            <p><i class="far fa-eye"></i> Lượt xem</p>
+                                        </div>
+                                        <div>
+                                            <p>2.302.958</p>
+                                        </div>
+                                    </div>
+                                    <div class="rank">
+                                        <div class="rank-new">
+                                            <a href="#">Võ Nghịch Cửu Thiên </a>
+                                        </div>
+                                        <div>
+                                            <p style="margin-left: 10px;">Xếp hạng: 3.7/5 - 13694 Lượt đánh giá.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="follow">
+                                        <div>
+                                            <button type="button" class="btn btn-success"><i class="fas fa-heart"></i>
+                                                Theo dõi</button>
+                                        </div>
+                                        <div>
+                                            <p style="    margin-top: 5px;
+                                            margin-left: 30px;"><span style="font-weight: bolder;">50.419</span> Người
+                                                đã theo dõi</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="read">
+                                        <div class="read-begin">
+
+                                            <button type="button" class="btn btn-warning">Đọc từ đầu</button>
+
+                                        </div>
+                                        <div class="read-end">
+                                            <button type="button" class="btn btn-warning">Đọc mới nhất</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="content">
+                                <p><i class="fas fa-book"></i> Nội dung</p>
+                                <div class="new">
+                                    Trong người mang huyết mạch nghịch thiên, cầm trong tay Ẩm Huyết Cuồng Kiếm, truy
+                                    tìm tung tích các trưởng bối, từ thân thể củi mục nghịch cảnh mà lên. Lĩnh ngộ ba
+                                    ngàn đại đạo, từng bước mở ra con   đường vương giả cửu thiên!
+                                </div>
+                            </div>
+                            <div class="list-chapter">
+                                <p><i class="fas fa-list-ul"></i> Danh sách chương</p>
+                                <div class="chapter">
+                                    <ul>
+                                        <li><a href="#">Chapter 210</a></li>
+                                        <li><a href="#">Chapter 209</a></li>
+                                        <li><a href="#">Chapter 208</a></li>
+                                        <li><a href="#">Chapter 207</a></li>
+                                        <li><a href="#">Chapter 206</a></li>
+                                        <li><a href="#">Chapter 205</a></li>
+                                        <li><a href="#">Chapter 204</a></li>
+                                        <li><a href="#">Chapter 203</a></li>
+                                        <li><a href="#">Chapter 202</a></li>
+                                        <li><a href="#">Chapter 201</a></li>
+                                        <li><a href="#">Chapter 200</a></li>
+                                        <li><a href="#">Chapter 199</a></li>
+                                        <li><a href="#">Chapter 198</a></li>
+                                        <li><a href="#">Chapter 197</a></li>
+                                        <li><a href="#">Chapter 196</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="comment1 hidden-xs">
+                                <div class="top">
+                                    <h2
+                                        style="text-align: center;border-bottom: 3px solid #b589c9; padding: 0px 0px 10px 0px;">
+                                        Top Tháng</h2>
+                                    <div class=top-month>
+                                        <div class="number">
+                                            <h2>01</h2>
+                                        </div>
+                                        <div class="top-story">
+                                            <a href="#"><img
+                                                    src="http://st.truyenchon.com/data/comics/205/trong-sinh-dai-ngoan-gia.jpg"
+                                                    alt="" class="img-responsive"></a>
+                                        </div>
+                                        <div class="name-story">
+                                            <a href="#">Trọng Sinh Đại Ngoạn Gia</a>
+                                            <p>Chapter 178</p>
+                                        </div>
+                                    </div>
+                                    <div class=top-month>
+                                        <div class="number">
+                                            <h2 style="color:#27ae60">02</h2>
+                                        </div>
+                                        <div class="top-story">
+                                            <a href="#"><img
+                                                    src="http://st.truyenchon.com/data/comics/127/toan-chuc-phap-su.jpg"
+                                                    alt="" class="img-responsive"></a>
+                                        </div>
+                                        <div class="name-story">
+                                            <a href="#">Toán Chức Pháp Sư</a>
+                                            <p>Chapter 548</p>
+                                        </div>
+                                    </div>
+                                    <div class=top-month>
+                                        <div class="number">
+                                            <h2 style="color:#d45907">03</h2>
+                                        </div>
+                                        <div class="top-story">
+                                            <a href="voluyendinhphong.html"><img
+                                                    src="http://st.truyenchon.com/data/comics/32/vo-luyen-dinh-phong.jpg"
+                                                    alt="" class="img-responsive"></a>
+                                        </div>
+                                        <div class="name-story">
+                                            <a href="voluyendinhphong.html">Võ Luyện Đỉnh Phong</a>
+                                            <p>Chapter 611</p>
+                                        </div>
+                                    </div>
+                                    <div class=top-month>
+                                        <div class="number">
+                                            <h2 style="color:#3b3b3b">04</h2>
+                                        </div>
+                                        <div class="top-story">
+                                            <a href="thanvothienton.html"><img
+                                                    src="http://st.truyenchon.com/data/comics/198/than-vo-thien-ton.jpg"
+                                                    alt="" class="img-responsive"></a>
+                                        </div>
+                                        <div class="name-story">
+                                            <a href="thanvothienton.html">Thần Võ Thiên Tôn</a>
+                                            <p>Chapter 181</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
